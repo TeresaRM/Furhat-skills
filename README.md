@@ -1,2 +1,2 @@
 # Furhat-skills
-Furhat skills designed for the University of Sheffield (UoS) COM Conference and Open Days.
+Custom-built Furhat skills designed for events happening at The University of Sheffield (UoS).
