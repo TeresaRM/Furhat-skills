@@ -1,10 +1,14 @@
 # Skill
-Conference Meet & Greet skill
+Conference Meet & Greet Skill
 
 ## Description
-This skill will be used as a demo for the Furhat social robot at the CDT Conference 2022. Information on the proposed Dialogue Flow for this skill can be found in this [Google doc](https://docs.google.com/document/d/1e00V9RqpvdQpcxVn5HTcvyS-OS2RvxUYBzEe90HMoJI/edit?usp=sharing). The code of this conference skill can be found in Teresa's [Github](https://github.com/TeresaRM)
+This skill was designed for a Furhat demo at the SLT CDT Conference 2022.
 
 ## Usage
-Max number of users is set to: 2
-Default interaction distance is set to: 1 meter
-No other specific requirements. 
+Max number of users is set to: 2 (although the skill only supports 1-to-1 interactions with one participant at a time).
+Default interaction distance is set to:
+ - Inner interaction area (0.5m wide * 1.2m long).
+ - Outer interaction area (1.2m wide * 1.7m long).
+Voice: Amy (by Amazon Polly).
+Mask: Adult, with Character set to 'Isabella'.
+11 intents for the entire dialog flow.
