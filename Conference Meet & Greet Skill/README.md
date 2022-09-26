@@ -1,4 +1,4 @@
-# Conference Meet & Greet Skill
+# Conference Meet & Greet Skills
 
 ## Description
 This skill was designed for a Furhat demo at the SLT CDT Conference 2022.
