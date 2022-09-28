@@ -20,7 +20,7 @@ val UserSubject: State = state(Parent) {
         furhat.say("I'm sure there is an informative ${it.intent.subject} stand somewhere around the Diamond.")
         delay(200)
         furhat.say("So make sure to check it out later.")
-        furhat.gesture(Gestures.Wink, async = false)
+        furhat.gesture(Gestures.Smile, async = false)
         delay(200)
         goto(OpenDay)
     }
@@ -28,7 +28,7 @@ val UserSubject: State = state(Parent) {
     onResponse<DontKnow> {
         furhat.gesture(Gestures.Oh, async = true)
         furhat.say("Well, I hope you feel inspired by the students today and become interested in a few subjects!")
-        furhat.gesture(Gestures.Smile, async = false)
+        furhat.gesture(Gestures.BigSmile, async = false)
         delay(200)
         goto(OpenDay)
     }

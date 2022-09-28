@@ -13,11 +13,10 @@ val OpenDay: State = state(Parent) {
         furhat.gesture(Gestures.BrowRaise, async = true)
         furhat.say {
             random {
-                + "Well, one last question ${users.current.name}, I'm genuinely interested"
-                + "Well, one last question ${users.current.name} and I'll let you go"
+                + "Well, one last question ${users.current.name}, I'm genuinely interested!"
+                + "Well, one last question ${users.current.name} and I'll let you go."
             }
         }
-        furhat.gesture(Gestures.Wink)
         delay(200)
         furhat.ask {
             random {
@@ -34,7 +33,7 @@ val OpenDay: State = state(Parent) {
                 + "I'm glad you are enjoying the open day. Make sure to check out as many stands and activities as possible!"
             }
         }
-        furhat.gesture(Gestures.Smile, async = false)
+        furhat.gesture(Gestures.BigSmile, async = false)
         delay(200)
         goto(Farewell)
     }
@@ -46,14 +45,14 @@ val OpenDay: State = state(Parent) {
                 + "I guess you must be really tired or bored. Grab some coffee, I heard it's human's preferred energy source"
             }
         }
-        furhat.gesture(Gestures.Wink, async = false)
+        furhat.gesture(Gestures.Smile, async = false)
         delay(200)
         goto(Farewell)
     }
 
     onResponse {
         furhat.say("I didn't quite catch that, but I'll assume you are having fun speaking to me.")
-        furhat.gesture(Gestures.Wink, async = false)
+        furhat.gesture(Gestures.Smile, async = false)
         delay(200)
         goto(Farewell)
     }

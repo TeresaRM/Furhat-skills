@@ -50,7 +50,7 @@ val HowAreYou : State = state(Parent) {
         }
         delay(200)
         furhat.say("Well, I hope speaking to me is the highlight of your day")
-        furhat.gesture(Gestures.Wink, async = false)
+        furhat.gesture(Gestures.Smile, async = false)
         delay(200)
         goto(UserName)
     }
@@ -59,7 +59,7 @@ val HowAreYou : State = state(Parent) {
         furhat.say("Well, I hope you aren't as busy as me")
         delay(200)
         furhat.say("Talking to all these humans makes me tired")
-        furhat.gesture(Gestures.Wink, async = false)
+        furhat.gesture(Gestures.GazeAway, async = false)
         delay(200)
         goto(UserName)
     }

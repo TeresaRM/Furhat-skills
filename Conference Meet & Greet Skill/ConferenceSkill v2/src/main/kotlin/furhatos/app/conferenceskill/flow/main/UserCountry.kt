@@ -17,7 +17,7 @@ val UserCountry: State = state(Parent) {
         furhat.say("${it.intent.close} is not far away from Sheffield")
         delay(200)
         furhat.say("So I might consider going there for the holidays!")
-        furhat.gesture(Gestures.Wink, async = false)
+        furhat.gesture(Gestures.BigSmile, async = false)
         delay(200)
         goto(PosterSession)
     }

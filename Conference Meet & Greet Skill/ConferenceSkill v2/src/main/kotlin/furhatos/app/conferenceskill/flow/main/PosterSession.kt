@@ -16,8 +16,6 @@ val PosterSession: State = state(Parent) {
                 + "Well, one last question ${users.current.name} and I'll let you go"
             }
         }
-        furhat.gesture(Gestures.Wink)
-        delay(200)
         furhat.ask {
             random {
                 + "Are you liking the poster session so far?"
@@ -46,14 +44,14 @@ val PosterSession: State = state(Parent) {
                 + "I guess you must be really tired or bored. Grab some coffee, I heard it's human's preferred energy source"
             }
         }
-        furhat.gesture(Gestures.Wink, async = false)
+        furhat.gesture(Gestures.Smile, async = false)
         delay(200)
         goto(Farewell)
     }
 
     onResponse {
         furhat.say("I didn't quite catch that, but I'll assume you are having fun speaking to me.")
-        furhat.gesture(Gestures.Wink, async = false)
+        furhat.gesture(Gestures.BigSmile, async = false)
         delay(200)
         goto(Farewell)
     }
