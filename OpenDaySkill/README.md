@@ -9,7 +9,7 @@ This skill was designed as a Furhat demo for the Engineering and Computer Scienc
  - Inner interaction area (0.5m wide * 1.2m long).
  - Outer interaction area (1.2m wide * 1.7m long).
 
-**Voice**: Amy (by Amazon Polly).
+**Voice**: Not defined - manually selected on the Web Interface for a physical Furhat robot. Normally, Lucy22k_HQ (female) - English GB is selected.
 
 **Mask**: Adult, with Character set to 'Isabella'.
 
