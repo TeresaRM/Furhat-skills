@@ -10,7 +10,7 @@ val FurhatIntroduction : State = state(Parent) {
     onEntry {
         furhat.gesture(Gestures.BrowRaise, async = true)
         furhat.say {
-            + "My name is Amy and I am Sheffield's Furhat social robot"
+            + "My name is Lucy and I am Sheffield's Furhat social robot"
             + delay(500)
         }
         furhat.gesture(Gestures.Smile, async = true)

@@ -42,7 +42,7 @@ val OpenDay: State = state(Parent) {
         furhat.say {
             random {
                 + "Thanks for the feedback ${users.current.name}. Me and my team will remember that"
-                + "I guess you must be really tired or bored. Grab some coffee, I heard it's human's preferred energy source"
+                + "I guess you must be really tired. Grab some coffee, I heard it's human's preferred energy source"
             }
         }
         furhat.gesture(Gestures.Smile, async = false)

@@ -17,7 +17,7 @@ val Farewell : State = state(Parent) {
         }
         delay(200)
         furhat.say("But some of my friends are waiting for me in the metaverse")
-        furhat.gesture(Gestures.Wink, async = false)
+        furhat.gesture(Gestures.Smile, async = false)
         delay(200)
         furhat.say{
             random {

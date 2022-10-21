@@ -35,7 +35,7 @@ val Greeting : State = state(Parent) {
 
     onResponse<Greeting> {
         delay(200)
-        furhat.gesture(Gestures.Blink, async = false)
+        furhat.gesture(Gestures.Smile, async = false)
         furhat.say("Welcome to the Engineering and Computer Science Open Day!")
         goto(HowAreYou)
     }

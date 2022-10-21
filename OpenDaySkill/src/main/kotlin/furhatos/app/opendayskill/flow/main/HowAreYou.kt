@@ -19,7 +19,7 @@ val HowAreYou : State = state(Parent) {
         furhat.gesture(Gestures.BrowRaise, async = true)
         furhat.ask {
             random {
-                + "How are you doing this fine ${if (current.dayOfWeek.value == 6) "Saturday" else "summer day"}?"
+                + "How are you doing this fine ${if (current.dayOfWeek.value == 6) "Saturday" else "day"}?"
                 + "How are you doing?"
                 + "How are you doing today?"
                 + "How are you feeling today?"
